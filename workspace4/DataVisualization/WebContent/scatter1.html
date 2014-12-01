@@ -1,0 +1,24 @@
+<html>
+  <head>
+        <meta charset="UTF-8">
+	<title>Data Visualization</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script src="http://trifacta.github.io/vega/lib/d3.v3.min.js"></script>
+    <script src="http://trifacta.github.io/vega/lib/d3.geo.projection.min.js"></script>
+    <script src="http://trifacta.github.io/vega/lib/topojson.js"></script>
+    <script src="http://trifacta.github.io/vega/vega.js"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+  </body>
+<script type="text/javascript">
+// parse a spec and create a visualization view
+function parse(spec) {
+  vg.parse.spec(spec, function(chart) { chart({el:"#vis"}).update(); });
+}
+
+parse({"width": 500,"height": 300, "padding": {"top": 100, "left": 422, "bottom": 300, "right": 100}, "data": [{"name": "iris", "values": [{"x":25, "y":21, "c":"Usual Status - Rural - Total"}, {"x":21, "y":19, "c":"Usual Status - Rural - Male"}, {"x":31, "y":24, "c":"Usual Status - Rural - Female"}, {"x":53, "y":37, "c":"Usual Status - Urban - Total"}, {"x":44, "y":30, "c":"Usual Status - Urban - Male"}, {"x":91, "y":70, "c":"Usual Status - Urban - Female"}, {"x":17, "y":16, "c":"Usual Status - Adjusted - Rural - Total"}, {"x":16, "y":16, "c":"Usual Status - Adjusted - Rural - Male"}, {"x":18, "y":16, "c":"Usual Status - Adjusted - Rural - Female"}, {"x":45, "y":34, "c":"Usual Status - Adjusted - Urban - Total"}, {"x":38, "y":28, "c":"Usual Status - Adjusted - Urban - Male"}, {"x":69, "y":57, "c":"Usual Status - Adjusted - Urban - Female"}, {"x":39, "y":33, "c":"Current Weekly Status - Rural - Total"}, {"x":38, "y":32, "c":"Current Weekly Status - Rural - Male"}, {"x":42, "y":37, "c":"Current Weekly Status - Rural - Female"}, {"x":60, "y":42, "c":"Current Weekly Status - Urban - Total"}, {"x":52, "y":36, "c":"Current Weekly Status - Urban - Male"}, {"x":90, "y":72, "c":"Current Weekly Status - Urban - Female"}, {"x":82, "y":68, "c":"Current Daily Status - Rural - Total"}, {"x":80, "y":64, "c":"Current Daily Status - Rural - Male"}, {"x":87, "y":80, "c":"Current Daily Status - Rural - Female"}, {"x":83, "y":58, "c":"Current Daily Status - Urban - Total"}, {"x":75, "y":51, "c":"Current Daily Status - Urban - Male"}, {"x":116, "y":91, "c":"Current Daily Status - Urban - Female"}] } ], "scales": [{ "name": "x", "nice": true, "range": "width", "domain": {"data": "iris", "field": "data.x"}},{ "name": "y", "nice": true, "range": "height", "domain": {"data": "iris", "field": "data.y"} }, { "name": "c", "type": "ordinal", "domain": {"data": "iris", "field": "data.c"}, "range": "category20" } ], "axes": [ {"type": "x", "scale": "x", "title":"2005", "properties": {"ticks": {"stroke": {"value": "steelblue"}},"labels": {"fill": {"value": "steelblue"},"angle": {"value": 50},"fontSize": {"value": 14},"align": {"value": "left"},"baseline": {"value": "middle"},"dx": {"value": 3}},"title": {"fontSize": {"value": 16}},"axis": {"stroke": {"value": "#333"},"strokeWidth": {"value": 1.5}}}},{"type": "y", "scale": "y", "title":"2010", "properties": {"ticks": {"stroke": {"value": "steelblue"}},"labels": {"fill": {"value": "steelblue"},"angle": {"value": 0},"fontSize": {"value": 14},"align": {"value": "right"},"baseline": {"value": "middle"},"dy": {"value": 3}},"title": {"fontSize": {"value": 16}},"axis": {"stroke": {"value": "#333"},"strokeWidth": {"value": 1.5}}}} ], "legends": [ { "fill": "c", "title": "Particulars","orient": "left", "offset": 0, "properties": { "symbols": { "fillOpacity": {"value": 0.5}, "stroke": {"value": "transparent"} } }}], "marks": [ { "type": "symbol", "from": {"data": "iris"}, "properties": { "enter": { "x": {"scale": "x", "field": "data.x"}, "y": {"scale": "y", "field": "data.y"}, "fill": {"scale": "c", "field": "data.c"}, "fillOpacity": {"value": 0.5} },"update": {  "size": {"value": 100}, "stroke": {"value": "transparent"} }, "hover": { "size": {"value": 300}, "stroke": {"value": "white" } } }}]});
+
+</script>
+</html>

@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Data Visualization</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+
+<script type="text/javascript"
+  src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['sankey']}]}">
+</script>
+
+<div id="sankey_basic" style="width: 900px; height: 300px;"></div>
+
+<script type="text/javascript">
+google.setOnLoadCallback(drawChart);
+
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Weight');
+    data.addRows([
+['Total Geographical Area','2009',30756],
+['Area Under Forest','2009',95],
+['Land Not Available for Cultivation','2009',8593],
+['Land put to Non Agriculture use','2009',2050],
+['Barren and  Uncultivable Land','2009',1351],
+['Permanent Pastures and Grazing Land','2009',1337],
+['Land Under Miscellaneous Trees, Crops and Groves not included','2009',19],
+['Cultivable Waste Land in not Area Sown','2009',1160],
+['Follow land Other than Current Follows','2009',620],
+['Current Follows','2009',582],
+['Net Area Sown','2009',15044],
+['Area Sown more than once','2009',5716],
+['Gross Cropped Area','2009',20760],
+['Total Geographical Area','2010',30756],
+['Area Under Forest','2010',95],
+['Land Not Available for Cultivation','2010',8586],
+['Land put to Non Agriculture use','2010',2091],
+['Barren and  Uncultivable Land','2010',1341],
+['Permanent Pastures and Grazing Land','2010',1338],
+['Land Under Miscellaneous Trees, Crops and Groves not included','2010',24],
+['Cultivable Waste Land in not Area Sown','2010',1147],
+['Follow land Other than Current Follows','2010',608],
+['Current Follows','2010',547],
+['Net Area Sown','2010',15075],
+['Area Sown more than once','2010',6440],
+['Gross Cropped Area','2010',21515],
+['Total Geographical Area','2011',30756],
+['Area Under Forest','2011',95],
+['Land Not Available for Cultivation','2011',8594],
+['Land put to Non Agriculture use','2011',2089],
+['Barren and  Uncultivable Land','2011',1335],
+['Permanent Pastures and Grazing Land','2011',1328],
+['Land Under Miscellaneous Trees, Crops and Groves not included','2011',24],
+['Cultivable Waste Land in not Area Sown','2011',1088],
+['Follow land Other than Current Follows','2011',568],
+['Current Follows','2011',503],
+['Net Area Sown','2011',15223],
+['Area Sown more than once','2011',6926],
+['Gross Cropped Area','2011',22149],
+['Total Geographical Area','2012',30756],
+['Area Under Forest','2012',95],
+['Land Not Available for Cultivation','2012',8588],
+['Land put to Non Agriculture use','2012',2119],
+['Barren and  Uncultivable Land','2012',1341],
+['Permanent Pastures and Grazing Land','2012',1321],
+['Land Under Miscellaneous Trees, Crops and Groves not included','2012',21],
+['Cultivable Waste Land in not Area Sown','2012',1056],
+['Follow land Other than Current Follows','2012',510],
+['Current Follows','2012',539],
+['Net Area Sown','2012',15017],
+['Area Sown more than once','2012',10506],
+['Gross Cropped Area','2012',21755],
+['Total Geographical Area','2013',30756],
+['Area Under Forest','2013',95],
+['Land Not Available for Cultivation','2013',8692],
+['Land put to Non Agriculture use','2013',2126],
+['Barren and  Uncultivable Land','2013',1387],
+['Permanent Pastures and Grazing Land','2013',1286],
+['Land Under Miscellaneous Trees, Crops and Groves not included','2013',20],
+['Cultivable Waste Land in not Area Sown','2013',1025],
+['Follow land Other than Current Follows','2013',493],
+['Current Follows','2013',375],
+['Net Area Sown','2013',15352],
+['Area Sown more than once','2013',7778],
+['Gross Cropped Area','2013',23130],
+    ]);
+    
+    // Set chart options
+    var options = {
+      width: 1000,
+      height: 1000
+    };
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+    chart.draw(data, options);
+   }
+</script>
+</head>
+</html>

@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["treemap"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+
+
+['Department','Parent Department','Budget Allocated 2014/15','Budget Increase / Decresase w.r.t previous Budget'],
+['Budget India','',484532,-21.1032120025923],
+['Ministry of Agriculture','Budget India',0,-34.4368830850347],
+['Department of Agriculture and Cooperation','Ministry of Agriculture',5846,-50.9193182772227],
+['Department of Agricultural Research and Education','Ministry of Agriculture',3715,42.8846153846154],
+['Department of Animal Husbandry, Dairying and Fisheries','Ministry of Agriculture',1133,-37.0555555555556],
+['Department of Atomic Energy','Budget India',13408,37.0961145194274],
+['Ministry of Chemicals and Fertilisers','Budget India',0,-61.033411033411],
+['Department of Chemicals and Petrochemicals','Ministry of Chemicals and Fertilisers',174,-85.1409052092229],
+['Department of Fertilisers','Ministry of Chemicals and Fertilisers',622,-53.1626506024096],
+['Department of Pharmaceuticals','Ministry of Chemicals and Fertilisers',207,176],
+['Ministry of Civil Aviation','Budget India',9474,11.4194990003528],
+['Ministry of Coal','Budget India',12561,14.81718464351],
+['Ministry of Commerce and industry','Budget India',0,-0.572519083969468],
+['Department of Commerce','Ministry of Commerce and industry',1426,-28.7],
+['Department of Industrial Policy and Promotion','Ministry of Commerce and industry',1700,48.6013986013986],
+['Ministry of Communications and Information Technology','Budget India',0,47.8983382209189],
+['Department of Posts','Ministry of Communications and Information Technology',800,86.046511627907],
+['Department of Telecommunications','Ministry of Communications and Information Technology',13501,45.0005369992482],
+['Department of Electronics and Information Technology','Ministry of Communications and Information Technology',3856,52.1104536489152],
+['Ministry of Consumer Affairs, Food and Public Distribution','Budget India',0,29.3260473588342],
+['Department of Consumer Affairs','Ministry of Consumer Affairs, Food and Public Distribution',220,14.5833333333333],
+['Department of Food and Public Distribution','Ministry of Consumer Affairs, Food and Public Distribution',490,37.2549019607843],
+['Ministry of Corporate Affairs','Budget India',24,14.2857142857143],
+['Ministry of Culture','Budget India',1835,24.8299319727891],
+['Ministry of Development of North Eastern Region','Budget India',536,149.302325581395],
+['Ministry of Drinking Water and Sanitation','Budget India',231,-98.075],
+['Ministry of Earth Sciences','Budget India',1281,38.4864864864865],
+['Ministry of Environment and Forests','Budget India',1171,-36.7027027027027],
+['Ministry of External Affairs','Budget India',5100,82.1428571428571],
+['Ministry of Finance','Budget India',0,0.898366987112212],
+['Department of Economic Affairs','Ministry of Finance',9931,76.3943161634103],
+['Department of Financial Services','Ministry of Finance',14100,-22.476358038267],
+['Department of Expenditure','Ministry of Finance',4,33.3333333333333],
+['Ministry of Food Processing Industries','Budget India',590,7.27272727272727],
+['Ministry of Health and Family Welfare','Budget India',0,-67.5798383993844],
+['Department of Health and Family Welfare','Ministry of Health and Family Welfare',6154,-73.4340600043169],
+['Department of Ayurveda, Yoga & Naturopathy,Unani, Siddha and Homoeopathy ( AYUSH)','Ministry of Health and Family Welfare',689,-8.13333333333334],
+['Department of Health Research','Ministry of Health and Family Welfare',726,26.2608695652174],
+['Department of AIDS Control','Ministry of Health and Family Welfare',857,-42.8666666666667],
+['Ministry of Heavy Industries and Public Enterprises','Budget India',0,61.9700748129676],
+['Department of Heavy Industry','Ministry of Heavy Industries and Public Enterprises',2589,62.2180451127819],
+['Department of Public Enterprises','Ministry of Heavy Industries and Public Enterprises',9,12.5],
+['Ministry of Home Affairs','Budget India',8922,25.2562122701109],
+['Ministry of Housing and Urban Poverty Alleviation','Budget India',15285,77.6292852992446],
+['Ministry of Human Resource Development','Budget India',0,-71.4331900035563],
+['Department of School Education and Literacy','Ministry of Human Resource Development',2972,-93.6979155622469],
+['Department of Higher Education','Ministry of Human Resource Development',14700,-0.0204039991838414],
+['Ministry of Information and Broadcasting','Budget India',1205,28.1914893617021],
+['Ministry of Labour and Employment','Budget India',806,-53.2211259431225],
+['Ministry of Law and Justice','Budget India',261,-73.4486266531028],
+['Ministry of Micro, Small and Medium Enterprises','Budget India',3699,27.2008253094911],
+['Ministry of Mines','Budget India',2379,58.4943371085943],
+['Ministry of Minority Affairs','Budget India',2469,-20.6364513018322],
+['Ministry of New and Renewable Energy','Budget India',3941,16.1508989095196],
+['Ministry of Overseas Indian Affairs','Budget India',20,100],
+['Ministry of Panchayati Raj','Budget India',94,-86.5714285714286],
+['Ministry of Personnel, Public Grievances and Pensions','Budget India',279,33.4928229665072],
+['Ministry of Petroleum and Natural Gas','Budget India',80678,-24.8850157346889],
+['Ministry of Planning','Budget India',2515,47.9411764705882],
+['Ministry of Power','Budget India',60384,11.8988936864148],
+['Ministry of Road Transport and Highways','Budget India',35238,15.614029331671],
+['Ministry of Rural Development','Budget India',0,-87.8628053712992],
+['Department of Rural Development','Ministry of Rural Development',7440,-87.4557410217501],
+['Department of Land Resources','Ministry of Rural Development',62,-97.52],
+['Ministry of Science and Technology','Budget India',0,30.709426627794],
+['Department of Science and Technology','Ministry of Science and Technology',3125,40.4494382022472],
+['Department of Scientific and Industrial Research','Ministry of Science and Technology',2100,29.6296296296296],
+['Department of Biotechnology','Ministry of Science and Technology',1500,15.3846153846154],
+['Ministry of Shipping','Budget India',4543,-1.56013001083423],
+['Ministry of Social Justice and Empowerment','Budget India',0,-41.4222222222222],
+['Department of Social Justice and Empowerment','Ministry of Social Justice and Empowerment',2734,-51.3955555555556],
+['Department of Disability Affairs','Ministry of Social Justice and Empowerment',560,100],
+['Department of Space','Budget India',6000,50],
+['Ministry of Statistics and Programme Implementation','Budget India',528,-11.2605042016807],
+['Ministry of Steel','Budget India',15393,-3.47400765034176],
+['Ministry of Textiles','Budget India',4326,10.9230769230769],
+['Ministry of Tourism','Budget India',1507,53.7755102040816],
+['Ministry of Tribal Affairs','Budget India',925,-46.5935334872979],
+['Ministry of Urban Development','Budget India',13404,39.5377888819488],
+['Ministry of Water Resources','Budget India',3245,363.571428571429],
+['Ministry of Women and Child Development','Budget India',989,-94.5659340659341],
+['Ministry of Youth Affairs and Sports','Budget India',1396,27.7218664226898],
+['Ministry of Railways','Budget India',63949,9.77049968244158]
+
+        ]);
+
+        tree = new google.visualization.TreeMap(document.getElementById('chart_div'));
+
+        tree.draw(data, {
+          minColor: 'red',
+          midColor: 'white',
+          maxColor: 'green',
+          headerHeight: 15,
+          fontColor: 'black',
+          showScale: true,
+minColorValue: -100,
+maxColorValue: 100,
+generateTooltip: showFullTooltip
+        });
+
+function showFullTooltip(row, size, value) {
+    return '<div style="background:#fd9; padding:10px; border-style:solid">'+
+           '<span style="font-family:Courier"><b>' + data.getValue(row, 0) +
+           '</b>,' + data.getValue(row, 1) +'</span><br>' +
+	   data.getColumnLabel(2) +
+           '(in crores of Rs): ' + size + '<br>' +
+	   data.getColumnLabel(3) + ': ' + Math.round(data.getValue(row, 3) * 100) / 100 + ' </div>';
+  }
+
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div_title" style="margin-left: auto;margin-right:auto; width:80%;font-size:30px;font-face:bold;text-align:center;">Budget Allocation 2014/15 - Department wise ( & Comparision with Previous Year Budget) </div>
+    <div id="chart_div" style="margin-left: auto;margin-right:auto; width:80%;height:500px;border:solid;"></div>
+
+  </body>
+</html>
+

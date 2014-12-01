@@ -1,0 +1,63 @@
+
+
+<html>
+ <head>
+  <script type='text/javascript' src="https://www.google.com/jsapi"></script>
+
+  <div id="regions_div" style="width: 1100px;"></div>
+
+  <script type="text/javascript">
+  google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawMarkersMap);
+
+   function drawMarkersMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['City', 'Total Registered Vehicles'],
+['AHMEDABAD',977734],
+['BANGALORE',1770930],
+['BHOPAL',360853],
+['CHENNAI',1894819],
+['COIMBATORE',577956],
+['DELHI',3970870],
+['HYDERABAD',1318538],
+['INDORE',592353],
+['JAIPUR',752645],
+['KANPUR',424652],
+['KOCHI',166481],
+['KOLKATA',841530],
+['LUCKNOW',614794],
+['LUDHIANA',727664],
+['MADURAI',281387],
+['MUMBAI',1123562],
+['NAGPUR',502580],
+['PATNA',335623],
+['PUNE',696993],
+['SURAT',633040],
+['VADODARA',545624],
+['VARANASI',365913],
+['VISAKHAPATNAM',393291]
+      ]);
+
+      var options = {
+        region: 'IN',
+	domain: 'IN',
+        displayMode: 'markers',
+        colorAxis: {colors: ['red']},
+backgroundColor: '#81d4fa',
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    };
+
+  </script>
+ </head>
+ <body>
+
+    <div id="chart_div_title" style="margin-left: auto;margin-right:auto; width:70%;font-size:30px;font-face:bold;text-align:center;">Motor Vehicles registered as on March 2013 - City Wise</div>
+    <div id="chart_div" style="margin-left: auto;margin-right:auto; width:70%;"></div>
+
+ </body>
+</html>
+
+

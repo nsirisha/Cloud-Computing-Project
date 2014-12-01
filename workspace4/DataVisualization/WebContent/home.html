@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Data Visualization</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<style type="text/css">
+.container {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+</style>
+
+<script>
+	function validateFunction() {
+
+		if (document.getElementById("fileUpload").value == "") {
+			document.getElementById("error_div").innerHTML = "Select file to be uploaded.";
+			return false;
+		} else {
+			document.getElementById("error_div").innerHTML = "";
+			return true;
+		}
+	}
+
+	function submitFile() {
+		if (validateFunction()) {
+			document.getElementById("formFileUpload").submit();
+		}
+	}
+</script>
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div style="float: left;">
+			<div style="text-align: center;">
+				<a href="viewgallery.html">View Gallery</a>
+			</div>
+			<div>
+				<a href="viewgallery.html"> <img
+					style="height: 200px; width: 200px" alt="View Gallery"
+					src="images/view_gallery1.png">
+				</a>
+			</div>
+		</div>
+		<div style="float: right;">
+			<form id="formFileUpload" action="UploadServlet" method="post" enctype="multipart/form-data">
+				<div>
+					<input type="file" name="filename" id="fileUpload" onchange="validateFunction();" />
+				</div>
+			</form>
+			<div>
+				<a href="#" onclick="submitFile();"> <img
+					style="height: 200px; width: 200px" alt="Plot By Uploading"
+					src="images/upload.png"></a>
+			</div>
+			<div id="error_div" style="color: red; text-align: center;"></div>
+		</div>
+		
+	</div>
+</body>
+</html>

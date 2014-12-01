@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/barsofstuff/bos.css"/>
+    <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/barsofstuff/bos.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  </head>
+  <body>
+
+    <div id="chartdiv" style="width: 800px;margin:auto;"></div>
+    <script type="text/javascript">
+      google.load("visualization", "1");
+      google.setOnLoadCallback(drawChart);
+      var chart;
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Label');
+        data.addColumn('number', 'Value');
+        data.addRows(15);
+
+data.setCell(0,0,'2011-12');
+data.setCell(1,0,'2010-11');
+data.setCell(2,0,'2009-10');
+data.setCell(3,0,'2008-09');
+data.setCell(4,0,'2007-08');
+data.setCell(5,0,'2006-07');
+data.setCell(6,0,'2005-06');
+data.setCell(7,0,'2004-05');
+data.setCell(8,0,'2003-04');
+data.setCell(9,0,'2000-01');
+data.setCell(10,0,'1990-91');
+data.setCell(11,0,'1980-81');
+data.setCell(12,0,'1970-71');
+data.setCell(13,0,'1960-61');
+data.setCell(14,0,'1950-51');
+data.setCell(0,1,8224,'8224');
+data.setCell(1,1,7651,'7651');
+data.setCell(2,1,7246,'7246');
+data.setCell(3,1,6920,'6920');
+data.setCell(4,1,6524,'6524');
+data.setCell(5,1,6219,'6219');
+data.setCell(6,1,5725,'5725');
+data.setCell(7,1,5378,'5378');
+data.setCell(8,1,5112,'5112');
+data.setCell(9,1,4833,'4833');
+data.setCell(10,1,3858,'3858');
+data.setCell(11,1,3613,'3613');
+data.setCell(12,1,2431,'2431');
+data.setCell(13,1,1594,'1594');
+data.setCell(14,1,1284,'1284');
+
+
+        var chartDiv = document.getElementById('chartdiv');
+        var options = {title: 'Commuters (in millions) by Year , Indian Railays',
+canSelect:false};
+        chart = new BarsOfStuff(chartDiv);
+        chart.draw(data, options);        
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+<h1 id="chart_div_title" style="margin-left: auto;margin-right:auto; width:80%;font-size:30px;font-face:bold;text-align:center;">Word Cloud of PMs Speech at TimeSquare, Newyork</h1>
+<div  id="chart_div" style="margin-left: auto;margin-right:auto; width:80%;height:500px;">
+</div>
+<script src="javascript/d3.js"></script>
+<script src="javascript/d3.layout.cloud.js"></script>
+<script>
+var fontSize = d3.scale.log().range([10, 100]);
+
+var fill = d3.scale.category20();
+d3.layout.cloud()
+.size([960, 600])
+.words([
+
+"faster",
+"india",
+"got",
+"precious",
+"none",
+"world",
+"important",
+"know",
+"represent",
+"world",
+"just",
+"biggest",
+"asset",
+"hope",
+"million",
+"demographic",
+"less",
+"years",
+"sees",
+"us",
+"biggest",
+"market",
+"consumption",
+"america",
+"oldest",
+"democratic",
+"country",
+"india",
+"biggest",
+"democratic",
+"people",
+"living",
+"parts",
+"world",
+"indian",
+"people",
+"migrate",
+"countries",
+"government",
+"bring",
+"development",
+"can",
+"construct",
+"roads",
+"possible",
+"peoples",
+"good",
+"governance",
+"land",
+"airport",
+"know",
+"go",
+"visa",
+"need",
+"tell",
+"development",
+"made",
+"mass",
+"history",
+"india",
+"many",
+"leaders",
+"gave",
+"lives",
+"nation",
+"fought",
+"freedom",
+"groups",
+"gandhi",
+"made",
+"freedom",
+"movement",
+"mass",
+"revolution",
+"things",
+"everyday",
+"life",
+"actions",
+"freedom",
+"doctor",
+"feel"
+].map(function(d) {
+return {text: d, size: 10 + Math.random() * 90};
+}))
+.padding(5)
+.rotate(function() { return ~~(Math.random() * 5) * 30 - 60; })
+.font("Impact")
+.fontSize(function(d) { return d.size; })
+.on("end", draw)
+.start();
+function draw(words) {
+d3.select("body").select("div").append("svg")
+.attr("width", 960)
+.attr("height", 600)
+.append("g")
+.attr("transform", "translate(480,300)")
+.selectAll("text")
+.data(words)
+.enter().append("text")
+.style("font-size", function(d) { return d.size + "px"; })
+.style("font-family", "Impact")
+.style("fill", function(d, i) { return fill(i); })
+.attr("text-anchor", "middle")
+.attr("transform", function(d) {
+return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+})
+
+.text(function(d) { return d.text; });
+}
+</script>
+</body>

@@ -1,0 +1,64 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+	<title>Data Visualization</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+  
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawMarkersMap);
+
+      function drawMarkersMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['State', 'Total Number of schools'],
+	['Andhra Pradesh', 100556],
+	['Arunachal Pradesh', 3020],
+	['Assam', 44987],
+	['Bihar', 70023],
+	['Chhattisgarh', 52734],
+	['Delhi', 4967],
+	['Goa', 1550],
+	['Gujarat', 45558],
+	['Haryana', 19125],
+	['Himachal Pradesh', 16695],
+	['Jammu  Kashmir', 25433],
+	['Jharkhand', 40330],
+	['Karnataka', 68823],
+	['Kerala', 13630],
+	['Madhya Pradesh', 132379],
+	['Maharashtra', 95028],
+	['Manipur', 3869],
+	['Meghalaya', 10323],
+	['Mizoram', 3059],
+	['Nagaland', 2533],
+	['Orissa', 62591],
+	['Punjab', 24289],
+	['Rajasthan', 99220],
+	['Sikkim', 988],
+	['Tamil Nadu', 53308],
+	['Tripura', 4310],
+	['Uttar Pradesh', 223260],
+	['Uttarakhand', 21990],
+	['West Bengal', 60696],
+      ]);
+
+      var options = {
+        region: 'IN',
+        displayMode: 'regions',
+        resolution: 'provinces',
+	colorAxis: {colors: ['#003300']},
+        backgroundColor: '#81d4fa',
+        datalessRegionColor: '#FFFFCC',	
+
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    };
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

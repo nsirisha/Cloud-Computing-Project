@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["orgchart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        data.addRows([
+
+          ['COAS','','Chief of Army Staff'],
+['VCOAS','COAS',''],
+['DG MO','VCOAS',''],
+['DG MI','VCOAS',''],
+['DG OL & SM','VCOAS',''],
+['CAB','COAS',''],
+['DCOAS (IS & T)','COAS',''],
+['DCOAS (P & S)','COAS',''],
+['AG','COAS',''],
+['MS','COAS',''],
+['QMG','COAS',''],
+['MGO','COAS',''],
+['E-in-C','COAS',''],
+['DG IS','DCOAS (IS & T)',''],
+['SO-in-C','DCOAS (IS & T)',''],
+['DG MT','DCOAS (IS & T)',''],
+['DG SD','DCOAS (IS & T)',''],
+['ASEC','DCOAS (IS & T)',''],
+['DG MF','DCOAS (P & S)',''],
+['DG ARTY','DCOAS (P & S)',''],
+['DG INF','DCOAS (P & S)',''],
+['DG AAD','DCOAS (P & S)',''],
+['DG RR','DCOAS (P & S)',''],
+['DG PP','DCOAS (P & S)',''],
+['DG FP','DCOAS (P & S)',''],
+['DG WE','DCOAS (P & S)',''],
+['ADG AVN','DCOAS (P & S)',''],
+['ADG TA','DCOAS (P & S)',''],
+['DDG DSC','DCOAS (P & S)',''],
+['DG MP & PS','AG',''],
+['DG DC & W','AG',''],
+['DG MS','AG',''],
+['DG DS','AG',''],
+['AGI','AG',''],
+['AWHO','AG',''],
+['ADG MP','DG MP & PS',''],
+['ADG RTG','DG MP & PS',''],
+['ADG PS','DG MP & PS',''],
+['ADG DV','DG DC & W',''],
+['ADG CW','DG DC & W',''],
+['PM','DG DC & W',''],
+['JAG','DG DC & W',''],
+['MD ECHS','DG DC & W',''],
+['ADDL MS A','MS',''],
+['ADDL MS B','MS',''],
+['PDMS (X)','MS',''],
+['DG ST','QMG',''],
+['DG RVS','QMG',''],
+['DG ADM & COORD','QMG',''],
+['ADG APS','QMG',''],
+['ADG LWE','QMG',''],
+['ADG TE','QMG',''],
+['DDG PNRS','QMG',''],
+['DDG CS','QMG',''],
+['DDG MIL FARMS','QMG',''],
+['DG OS','MGO',''],
+['DG EME','MGO',''],
+['ADG EM','MGO',''],
+['ADG PROC','MGO',''],
+['DG WKS','E-in-C',''],
+['DG PERS','E-in-C',''],
+['DG MAP','E-in-C',''],
+['ADG ESP','E-in-C',''],
+['ADG ES','E-in-C',''],
+['ADG ENGRS','E-in-C','']
+        ]);
+
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+        chart.draw(data, {allowHtml:true});
+      }
+   </script>
+    </head>
+  <body>
+    <div id="chart_div""></div>
+  </body>
+</html>
+

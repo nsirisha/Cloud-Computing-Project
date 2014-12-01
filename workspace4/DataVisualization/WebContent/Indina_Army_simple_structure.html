@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["orgchart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        data.addRows([
+['ARMY HEAD QUARTERS','','Chief of the Army Staff , Rank:General-**** '],
+['OPERATIONAL COMMANDS (6)','ARMY HEAD QUARTERS','Commanded by GOC-IN-C ( Army Commander) Rank – Lieutenant General - ***'],
+['ARMY TRAINING COMMAND (1)','ARMY HEAD QUARTERS','Commanded by GOC-IN-C ( Army Commander) Rank – Lieutenant General - ***'],
+['CORPS','OPERATIONAL COMMANDS (6)','Commanded by GOC ( Corps Commander) Rank – Lieutenant General - *** Comprises of 3-4 Divisions'],
+['STATIC FORMATIONS AREA','OPERATIONAL COMMANDS (6)','Commanded by Lieutenant General - *** Comprises of 3-4 Divisions'],
+['SUB AREA','STATIC FORMATIONS AREA','Commanded by Major General - **'],
+['TRAINING ESTABLISHMENTS','ARMY TRAINING COMMAND (1)',''],
+['CATEGORY A','TRAINING ESTABLISHMENTS','Commanded by Lieutenant General - *** / Major General - **'],
+['CATEGORY B','TRAINING ESTABLISHMENTS','Commanded by Major General - ** / Brigadier- *'],
+['DIVISION','CORPS','Commanded by GOC ( Division Commander) Rank – Major General - ** Comprises of 3-4 Brigades'],
+['BRIGADE','DIVISION','Commanded by Brigade Commander Rank – Brigadier - * Comprises of 3-4 Betallions & Support Elements'],
+['BATALLION/REGIMENT','BRIGADE','Commanded by Commanding Officer Rank – Colonel – Comprises of4 Rifle Companies'],
+['RIFLE COMPANY','BATALLION/REGIMENT','Commanded by Company Commander – Rank: Lieutenant  Colonel/ Major – Comprises of 3 platoons'],
+['PALTOON','RIFLE COMPANY','Commanded by Platoon Commander – Rank: JCO  – Comprises of 3 sections'],
+['SECTION','PALTOON','Commanded by Section Commander – Rank: Havildar  – Smallest Component (10 men)']
+       
+
+        ]);
+
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+        chart.draw(data, {allowHtml:true});
+      }
+   </script>
+    </head>
+  <body>
+    <div id="chart_div_title" style="margin-left: auto;margin-right:auto; width:80%;font-size:30px;font-face:bold;text-align:center;">
+	Organisation Structure of Indian Army</div>
+    <div id="chart_div""></div>
+  </body>
+</html>
+

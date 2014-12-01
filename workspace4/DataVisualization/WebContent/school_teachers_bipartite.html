@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body{
+
+	width:1500px;
+	margin:50px auto;
+}
+svg text{
+	font-size:12px;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+</style>
+<body>
+<div id="chart_div_title" style="margin-left: auto;margin-right:auto; width:80%;font-size:30px;font-face:bold;text-align:center;">
+Comparision of the Male and Female School teachers in Lower Secondary and Upper Secondary Schools - Statewise</div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="javascript/biPartite.js"></script>
+<script>
+var sales_data=[['Andaman and Nicobar Islands','Lower Secondary School',408,584]
+,['Andhra Pradesh','Lower Secondary School',121835,83344]
+,['Arunachal Pradesh','Lower Secondary School',1874,919]
+,['Assam','Lower Secondary School',45750,15801]
+,['Bihar','Lower Secondary School',20395,3791]
+,['Chandigarh','Lower Secondary School',302,1383]
+,['Chhattisgarh','Lower Secondary School',8327,5190]
+,['Dadra and Nagar Haveli','Lower Secondary School',165,164]
+,['Daman and Diu','Lower Secondary School',127,90]
+,['Delhi','Lower Secondary School',3576,7283]
+,['Goa','Lower Secondary School',1197,1858]
+,['Gujarat','Lower Secondary School',27615,12433]
+,['Haryana','Lower Secondary School',20746,16201]
+,['Himachal Pradesh','Lower Secondary School',4784,5238]
+,['Jammu and Kashmir','Lower Secondary School',14310,11060]
+,['Jharkhand','Lower Secondary School',0,0]
+,['Karnataka','Lower Secondary School',66622,57513]
+,['Kerala','Lower Secondary School',11446,36134]
+,['Lakshadweep','Lower Secondary School',124,81]
+,['Madhya Pradesh','Lower Secondary School',31234,22822]
+,['Maharashtra','Lower Secondary School',114225,52431]
+,['Manipur','Lower Secondary School',5111,3604]
+,['Meghalaya','Lower Secondary School',2294,2543]
+,['Mizoram','Lower Secondary School',2732,1138]
+,['Nagaland','Lower Secondary School',4001,2627]
+,['Odisha','Lower Secondary School',49527,15762]
+,['Puducherry','Lower Secondary School',1011,2139]
+,['Punjab','Lower Secondary School',12984,24682]
+,['Rajasthan','Lower Secondary School',72373,25796]
+,['Sikkim','Lower Secondary School',855,657]
+,['Tamil Nadu','Lower Secondary School',13470,17522]
+,['Tripura','Lower Secondary School',7804,2886]
+,['Uttar Pradesh','Lower Secondary School',44516,11618]
+,['Uttarakhand','Lower Secondary School',13887,5520]
+,['West Bengal','Lower Secondary School',49014,19060]
+,['Andaman and Nicobar Islands','Senior Secondary School',999,1189]
+,['Andhra Pradesh','Senior Secondary School',37578,14468]
+,['Arunachal Pradesh','Senior Secondary School',2119,679]
+,['Assam','Senior Secondary School',12639,5324]
+,['Bihar','Senior Secondary School',27332,11390]
+,['Chandigarh','Senior Secondary School',532,2464]
+,['Chhattisgarh','Senior Secondary School',18987,10329]
+,['Dadra and Nagar Haveli','Senior Secondary School',67,59]
+,['Daman and Diu','Senior Secondary School',55,65]
+,['Delhi','Senior Secondary School',19556,48699]
+,['Goa','Senior Secondary School',610,808]
+,['Gujarat','Senior Secondary School',23487,11394]
+,['Haryana','Senior Secondary School',28760,25699]
+,['Himachal Pradesh','Senior Secondary School',11265,7735]
+,['Jammu and Kashmir','Senior Secondary School',10757,7732]
+,['Jharkhand','Senior Secondary School',0,0]
+,['Karnataka','Senior Secondary School',18206,8416]
+,['Kerala','Senior Secondary School',30587,65662]
+,['Lakshadweep','Senior Secondary School',61,9]
+,['Madhya Pradesh','Senior Secondary School',38270,28587]
+,['Maharashtra','Senior Secondary School',89536,41820]
+,['Manipur','Senior Secondary School',1705,1493]
+,['Meghalaya','Senior Secondary School',628,713]
+,['Mizoram','Senior Secondary School',702,522]
+,['Nagaland','Senior Secondary School',1193,1201]
+,['Odisha','Senior Secondary School',19037,6011]
+,['Puducherry','Senior Secondary School',1758,3022]
+,['Punjab','Senior Secondary School',20811,40101]
+,['Rajasthan','Senior Secondary School',69778,27970]
+,['Sikkim','Senior Secondary School',354,209]
+,['Tamil Nadu','Senior Secondary School',42721,52673]
+,['Tripura','Senior Secondary School',7225,4397]
+,['Uttar Pradesh','Senior Secondary School',144906,26949]
+,['Uttarakhand','Senior Secondary School',16996,5523]
+,['West Bengal','Senior Secondary School',63279,29778]
+]
+;
+
+var width = 1500, height = 900, margin ={b:0, t:50, l:250, r:150};
+
+var svg = d3.select("body")
+	.append("svg").attr('width',width).attr('height',(height+margin.b+margin.t))
+	.append("g").attr("transform","translate("+ margin.l+","+margin.t+")");
+
+var data = [ 
+	{data:bP.partData(sales_data,2), id:'Male', header:["State","School", "Male"]},
+	{data:bP.partData(sales_data,3), id:'Female', header:["State","School", "Female"]}
+];
+
+bP.draw(data, svg);
+
+</script>
+</body>
