@@ -1,0 +1,421 @@
+"All India/State/Union Territory","Literacy Rate","Year","Gender"
+"All India","52","1991","Male
+"Andhra Pradesh","44","1991","Male
+"Arunachal Pradesh","42","1991","Male
+"Assam","53","1991","Male
+"Bihar","38","1991","Male
+"Chhatisgarh","43","1991","Male
+"Goa","76","1991","Male
+"Gujarat","61","1991","Male
+"Haryana","56","1991","Male
+"Himachal Pradesh","64","1991","Male
+"Jammu and Kashmir","0","1991","Male
+"Jharkhand","41","1991","Male
+"Karnataka","56","1991","Male
+"Kerala","90","1991","Male
+"Madhya Pradesh","45","1991","Male
+"Maharashtra","65","1991","Male
+"Manipur","60","1991","Male
+"Meghalaya","49","1991","Male
+"Mizoram","82","1991","Male
+"Nagaland","62","1991","Male
+"Odisha","49","1991","Male
+"Punjab","59","1991","Male
+"Rajasthan","39","1991","Male
+"Sikkim","57","1991","Male
+"Tamil Nadu","63","1991","Male
+"Tripura","60","1991","Male
+"Uttar Pradesh","41","1991","Male
+"Uttaranchal","58","1991","Male
+"West Bengal","58","1991","Male
+"A. and N. Islands","73","1991","Male
+"Chandigarh","78","1991","Male
+"D. and N. Haveli","41","1991","Male
+"Daman and Diu","71","1991","Male
+"Delhi","75","1991","Male
+"Lakshadweep","82","1991","Male
+"All India","64","1991","Female
+"Andhra Pradesh","55","1991","Female
+"Arunachal Pradesh","52","1991","Female
+"Assam","62","1991","Female
+"Bihar","51","1991","Female
+"Chhatisgarh","58","1991","Female
+"Goa","84","1991","Female
+"Gujarat","73","1991","Female
+"Haryana","69","1991","Female
+"Himachal Pradesh","75","1991","Female
+"Jammu and Kashmir","0","1991","Female
+"Jharkhand","56","1991","Female
+"Karnataka","67","1991","Female
+"Kerala","94","1991","Female
+"Madhya Pradesh","59","1991","Female
+"Maharashtra","77","1991","Female
+"Manipur","72","1991","Female
+"Meghalaya","53","1991","Female
+"Mizoram","86","1991","Female
+"Nagaland","68","1991","Female
+"Odisha","63","1991","Female
+"Punjab","66","1991","Female
+"Rajasthan","55","1991","Female
+"Sikkim","66","1991","Female
+"Tamil Nadu","74","1991","Female
+"Tripura","71","1991","Female
+"Uttar Pradesh","55","1991","Female
+"Uttaranchal","73","1991","Female
+"West Bengal","68","1991","Female
+"A. and N. Islands","79","1991","Female
+"Chandigarh","82","1991","Female
+"D. and N. Haveli","54","1991","Female
+"Daman and Diu","83","1991","Female
+"Delhi","82","1991","Female
+"Lakshadweep","90","1991","Female
+"All India","39","1991 - Persons"
+"Andhra Pradesh","33","1991 - Persons"
+"Arunachal Pradesh","30","1991 - Persons"
+"Assam","43","1991 - Persons"
+"Bihar","22","1991 - Persons"
+"Chhatisgarh","28","1991 - Persons"
+"Goa","67","1991 - Persons"
+"Gujarat","49","1991 - Persons"
+"Haryana","41","1991 - Persons"
+"Himachal Pradesh","52","1991 - Persons"
+"Jammu and Kashmir","0","1991 - Persons"
+"Jharkhand","26","1991 - Persons"
+"Karnataka","44","1991 - Persons"
+"Kerala","86","1991 - Persons"
+"Madhya Pradesh","29","1991 - Persons"
+"Maharashtra","52","1991 - Persons"
+"Manipur","48","1991 - Persons"
+"Meghalaya","45","1991 - Persons"
+"Mizoram","79","1991 - Persons"
+"Nagaland","55","1991 - Persons"
+"Odisha","35","1991 - Persons"
+"Punjab","50","1991 - Persons"
+"Rajasthan","20","1991 - Persons"
+"Sikkim","47","1991 - Persons"
+"Tamil Nadu","51","1991 - Persons"
+"Tripura","50","1991 - Persons"
+"Uttar Pradesh","24","1991 - Persons"
+"Uttaranchal","42","1991 - Persons"
+"West Bengal","47","1991 - Persons"
+"A. and N. Islands","66","1991 - Persons"
+"Chandigarh","72","1991 - Persons"
+"D. and N. Haveli","27","1991 - Persons"
+"Daman and Diu","59","1991 - Persons"
+"Delhi","67","1991 - Persons"
+"Lakshadweep","73","1991 - Persons"
+"All India","65","2001","Male
+"Andhra Pradesh","61","2001","Male
+"Arunachal Pradesh","54","2001","Male
+"Assam","63","2001","Male
+"Bihar","47","2001","Male
+"Chhatisgarh","65","2001","Male
+"Goa","82","2001","Male
+"Gujarat","69","2001","Male
+"Haryana","68","2001","Male
+"Himachal Pradesh","77","2001","Male
+"Jammu and Kashmir","56","2001","Male
+"Jharkhand","54","2001","Male
+"Karnataka","67","2001","Male
+"Kerala","91","2001","Male
+"Madhya Pradesh","64","2001","Male
+"Maharashtra","77","2001","Male
+"Manipur","71","2001","Male
+"Meghalaya","63","2001","Male
+"Mizoram","89","2001","Male
+"Nagaland","67","2001","Male
+"Odisha","63","2001","Male
+"Punjab","70","2001","Male
+"Rajasthan","60","2001","Male
+"Sikkim","69","2001","Male
+"Tamil Nadu","74","2001","Male
+"Tripura","73","2001","Male
+"Uttar Pradesh","56","2001","Male
+"Uttaranchal","72","2001","Male
+"West Bengal","69","2001","Male
+"A. and N. Islands","81","2001","Male
+"Chandigarh","82","2001","Male
+"D. and N. Haveli","58","2001","Male
+"Daman and Diu","78","2001","Male
+"Delhi","82","2001","Male
+"Lakshadweep","87","2001","Male
+"All India","75","2001","Female
+"Andhra Pradesh","70","2001","Female
+"Arunachal Pradesh","64","2001","Female
+"Assam","71","2001","Female
+"Bihar","60","2001","Female
+"Chhatisgarh","77","2001","Female
+"Goa","88","2001","Female
+"Gujarat","80","2001","Female
+"Haryana","79","2001","Female
+"Himachal Pradesh","85","2001","Female
+"Jammu and Kashmir","67","2001","Female
+"Jharkhand","67","2001","Female
+"Karnataka","76","2001","Female
+"Kerala","94","2001","Female
+"Madhya Pradesh","76","2001","Female
+"Maharashtra","86","2001","Female
+"Manipur","80","2001","Female
+"Meghalaya","65","2001","Female
+"Mizoram","91","2001","Female
+"Nagaland","71","2001","Female
+"Odisha","75","2001","Female
+"Punjab","75","2001","Female
+"Rajasthan","76","2001","Female
+"Sikkim","76","2001","Female
+"Tamil Nadu","82","2001","Female
+"Tripura","81","2001","Female
+"Uttar Pradesh","69","2001","Female
+"Uttaranchal","83","2001","Female
+"West Bengal","77","2001","Female
+"A. and N. Islands","86","2001","Female
+"Chandigarh","86","2001","Female
+"D. and N. Haveli","71","2001","Female
+"Daman and Diu","87","2001","Female
+"Delhi","87","2001","Female
+"Lakshadweep","93","2001","Female
+"All India","54","2001 - Persons"
+"Andhra Pradesh","50","2001 - Persons"
+"Arunachal Pradesh","44","2001 - Persons"
+"Assam","55","2001 - Persons"
+"Bihar","33","2001 - Persons"
+"Chhatisgarh","52","2001 - Persons"
+"Goa","75","2001 - Persons"
+"Gujarat","58","2001 - Persons"
+"Haryana","56","2001 - Persons"
+"Himachal Pradesh","67","2001 - Persons"
+"Jammu and Kashmir","43","2001 - Persons"
+"Jharkhand","39","2001 - Persons"
+"Karnataka","57","2001 - Persons"
+"Kerala","88","2001 - Persons"
+"Madhya Pradesh","50","2001 - Persons"
+"Maharashtra","67","2001 - Persons"
+"Manipur","61","2001 - Persons"
+"Meghalaya","60","2001 - Persons"
+"Mizoram","87","2001 - Persons"
+"Nagaland","62","2001 - Persons"
+"Odisha","51","2001 - Persons"
+"Punjab","63","2001 - Persons"
+"Rajasthan","44","2001 - Persons"
+"Sikkim","60","2001 - Persons"
+"Tamil Nadu","64","2001 - Persons"
+"Tripura","65","2001 - Persons"
+"Uttar Pradesh","42","2001 - Persons"
+"Uttaranchal","60","2001 - Persons"
+"West Bengal","60","2001 - Persons"
+"A. and N. Islands","75","2001 - Persons"
+"Chandigarh","77","2001 - Persons"
+"D. and N. Haveli","40","2001 - Persons"
+"Daman and Diu","66","2001 - Persons"
+"Delhi","75","2001 - Persons"
+"Lakshadweep","81","2001 - Persons"
+"All India","77","2011 - Rural","Male
+"Andhra Pradesh","69","2011 - Rural","Male
+"Arunachal Pradesh","67","2011 - Rural","Male
+"Assam","75","2011 - Rural","Male
+"Bihar","70","2011 - Rural","Male
+"Chhatisgarh","77","2011 - Rural","Male
+"Goa","92","2011 - Rural","Male
+"Gujarat","82","2011 - Rural","Male
+"Haryana","82","2011 - Rural","Male
+"Himachal Pradesh","89","2011 - Rural","Male
+"Jammu and Kashmir","74","2011 - Rural","Male
+"Jharkhand","73","2011 - Rural","Male
+"Karnataka","78","2011 - Rural","Male
+"Kerala","95","2011 - Rural","Male
+"Madhya Pradesh","75","2011 - Rural","Male
+"Maharashtra","85","2011 - Rural","Male
+"Manipur","83","2011 - Rural","Male
+"Meghalaya","72","2011 - Rural","Male
+"Mizoram","88","2011 - Rural","Male
+"Nagaland","79","2011 - Rural","Male
+"Odisha","80","2011 - Rural","Male
+"Punjab","77","2011 - Rural","Male
+"Rajasthan","76","2011 - Rural","Male
+"Sikkim","85","2011 - Rural","Male
+"Tamil Nadu","82","2011 - Rural","Male
+"Tripura","90","2011 - Rural","Male
+"Uttar Pradesh","76","2011 - Rural","Male
+"Uttaranchal","87","2011 - Rural","Male
+"West Bengal","79","2011 - Rural","Male
+"A. and N. Islands","89","2011 - Rural","Male
+"Chandigarh","86","2011 - Rural","Male
+"D. and N. Haveli","76","2011 - Rural","Male
+"Daman and Diu","89","2011 - Rural","Male
+"Delhi","89","2011 - Rural","Male
+"Lakshadweep","95","2011 - Rural","Male
+"All India","58","2011 - Rural","Female
+"Andhra Pradesh","52","2011 - Rural","Female
+"Arunachal Pradesh","52","2011 - Rural","Female
+"Assam","63","2011 - Rural","Female
+"Bihar","49","2011 - Rural","Female
+"Chhatisgarh","55","2011 - Rural","Female
+"Goa","82","2011 - Rural","Female
+"Gujarat","61","2011 - Rural","Female
+"Haryana","60","2011 - Rural","Female
+"Himachal Pradesh","75","2011 - Rural","Female
+"Jammu and Kashmir","52","2011 - Rural","Female
+"Jharkhand","49","2011 - Rural","Female
+"Karnataka","60","2011 - Rural","Female
+"Kerala","91","2011 - Rural","Female
+"Madhya Pradesh","52","2011 - Rural","Female
+"Maharashtra","69","2011 - Rural","Female
+"Manipur","69","2011 - Rural","Female
+"Meghalaya","68","2011 - Rural","Female
+"Mizoram","80","2011 - Rural","Female
+"Nagaland","72","2011 - Rural","Female
+"Odisha","61","2011 - Rural","Female
+"Punjab","66","2011 - Rural","Female
+"Rajasthan","46","2011 - Rural","Female
+"Sikkim","72","2011 - Rural","Female
+"Tamil Nadu","65","2011 - Rural","Female
+"Tripura","80","2011 - Rural","Female
+"Uttar Pradesh","54","2011 - Rural","Female
+"Uttaranchal","66","2011 - Rural","Female
+"West Bengal","66","2011 - Rural","Female
+"A. and N. Islands","80","2011 - Rural","Female
+"Chandigarh","73","2011 - Rural","Female
+"D. and N. Haveli","50","2011 - Rural","Female
+"Daman and Diu","72","2011 - Rural","Female
+"Delhi","73","2011 - Rural","Female
+"Lakshadweep","89","2011 - Rural","Female
+"All India","68","2011 - Rural - Person"
+"Andhra Pradesh","60","2011 - Rural - Person"
+"Arunachal Pradesh","60","2011 - Rural - Person"
+"Assam","69","2011 - Rural - Person"
+"Bihar","60","2011 - Rural - Person"
+"Chhatisgarh","66","2011 - Rural - Person"
+"Goa","87","2011 - Rural - Person"
+"Gujarat","72","2011 - Rural - Person"
+"Haryana","71","2011 - Rural - Person"
+"Himachal Pradesh","82","2011 - Rural - Person"
+"Jammu and Kashmir","63","2011 - Rural - Person"
+"Jharkhand","61","2011 - Rural - Person"
+"Karnataka","69","2011 - Rural - Person"
+"Kerala","93","2011 - Rural - Person"
+"Madhya Pradesh","64","2011 - Rural - Person"
+"Maharashtra","77","2011 - Rural - Person"
+"Manipur","76","2011 - Rural - Person"
+"Meghalaya","70","2011 - Rural - Person"
+"Mizoram","84","2011 - Rural - Person"
+"Nagaland","75","2011 - Rural - Person"
+"Odisha","70","2011 - Rural - Person"
+"Punjab","71","2011 - Rural - Person"
+"Rajasthan","61","2011 - Rural - Person"
+"Sikkim","79","2011 - Rural - Person"
+"Tamil Nadu","74","2011 - Rural - Person"
+"Tripura","85","2011 - Rural - Person"
+"Uttar Pradesh","66","2011 - Rural - Person"
+"Uttaranchal","76","2011 - Rural - Person"
+"West Bengal","72","2011 - Rural - Person"
+"A. and N. Islands","85","2011 - Rural - Person"
+"Chandigarh","81","2011 - Rural - Person"
+"D. and N. Haveli","64","2011 - Rural - Person"
+"Daman and Diu","82","2011 - Rural - Person"
+"Delhi","82","2011 - Rural - Person"
+"Lakshadweep","92","2011 - Rural - Person"
+"All India","89","2011 - Urban","Male
+"Andhra Pradesh","86","2011 - Urban","Male
+"Arunachal Pradesh","88","2011 - Urban","Male
+"Assam","92","2011 - Urban","Male
+"Bihar","83","2011 - Urban","Male
+"Chhatisgarh","91","2011 - Urban","Male
+"Goa","93","2011 - Urban","Male
+"Gujarat","91","2011 - Urban","Male
+"Haryana","89","2011 - Urban","Male
+"Himachal Pradesh","93","2011 - Urban","Male
+"Jammu and Kashmir","84","2011 - Urban","Male
+"Jharkhand","88","2011 - Urban","Male
+"Karnataka","90","2011 - Urban","Male
+"Kerala","97","2011 - Urban","Male
+"Madhya Pradesh","89","2011 - Urban","Male
+"Maharashtra","92","2011 - Urban","Male
+"Manipur","92","2011 - Urban","Male
+"Meghalaya","93","2011 - Urban","Male
+"Mizoram","98","2011 - Urban","Male
+"Nagaland","92","2011 - Urban","Male
+"Odisha","91","2011 - Urban","Male
+"Punjab","87","2011 - Urban","Male
+"Rajasthan","88","2011 - Urban","Male
+"Sikkim","92","2011 - Urban","Male
+"Tamil Nadu","92","2011 - Urban","Male
+"Tripura","96","2011 - Urban","Male
+"Uttar Pradesh","80","2011 - Urban","Male
+"Uttaranchal","89","2011 - Urban","Male
+"West Bengal","88","2011 - Urban","Male
+"A. and N. Islands","93","2011 - Urban","Male
+"Chandigarh","90","2011 - Urban","Male
+"D. and N. Haveli","94","2011 - Urban","Male
+"Daman and Diu","92","2011 - Urban","Male
+"Delhi","91","2011 - Urban","Male
+"Lakshadweep","96","2011 - Urban","Male
+"All India","79","2011 - Urban","Female
+"Andhra Pradesh","74","2011 - Urban","Female
+"Arunachal Pradesh","77","2011 - Urban","Female
+"Assam","85","2011 - Urban","Female
+"Bihar","71","2011 - Urban","Female
+"Chhatisgarh","77","2011 - Urban","Female
+"Goa","87","2011 - Urban","Female
+"Gujarat","81","2011 - Urban","Female
+"Haryana","77","2011 - Urban","Female
+"Himachal Pradesh","88","2011 - Urban","Female
+"Jammu and Kashmir","69","2011 - Urban","Female
+"Jharkhand","76","2011 - Urban","Female
+"Karnataka","81","2011 - Urban","Female
+"Kerala","93","2011 - Urban","Female
+"Madhya Pradesh","77","2011 - Urban","Female
+"Maharashtra","85","2011 - Urban","Female
+"Manipur","79","2011 - Urban","Female
+"Meghalaya","89","2011 - Urban","Female
+"Mizoram","97","2011 - Urban","Female
+"Nagaland","87","2011 - Urban","Female
+"Odisha","80","2011 - Urban","Female
+"Punjab","79","2011 - Urban","Female
+"Rajasthan","71","2011 - Urban","Female
+"Sikkim","85","2011 - Urban","Female
+"Tamil Nadu","82","2011 - Urban","Female
+"Tripura","91","2011 - Urban","Female
+"Uttar Pradesh","69","2011 - Urban","Female
+"Uttaranchal","79","2011 - Urban","Female
+"West Bengal","81","2011 - Urban","Female
+"A. and N. Islands","87","2011 - Urban","Female
+"Chandigarh","81","2011 - Urban","Female
+"D. and N. Haveli","83","2011 - Urban","Female
+"Daman and Diu","83","2011 - Urban","Female
+"Delhi","81","2011 - Urban","Female
+"Lakshadweep","88","2011 - Urban","Female
+"All India","84","2011 - Urban - Persons"
+"Andhra Pradesh","80","2011 - Urban - Persons"
+"Arunachal Pradesh","83","2011 - Urban - Persons"
+"Assam","89","2011 - Urban - Persons"
+"Bihar","77","2011 - Urban - Persons"
+"Chhatisgarh","84","2011 - Urban - Persons"
+"Goa","90","2011 - Urban - Persons"
+"Gujarat","86","2011 - Urban - Persons"
+"Haryana","83","2011 - Urban - Persons"
+"Himachal Pradesh","91","2011 - Urban - Persons"
+"Jammu and Kashmir","77","2011 - Urban - Persons"
+"Jharkhand","82","2011 - Urban - Persons"
+"Karnataka","86","2011 - Urban - Persons"
+"Kerala","95","2011 - Urban - Persons"
+"Madhya Pradesh","83","2011 - Urban - Persons"
+"Maharashtra","89","2011 - Urban - Persons"
+"Manipur","85","2011 - Urban - Persons"
+"Meghalaya","91","2011 - Urban - Persons"
+"Mizoram","98","2011 - Urban - Persons"
+"Nagaland","90","2011 - Urban - Persons"
+"Odisha","86","2011 - Urban - Persons"
+"Punjab","83","2011 - Urban - Persons"
+"Rajasthan","80","2011 - Urban - Persons"
+"Sikkim","89","2011 - Urban - Persons"
+"Tamil Nadu","87","2011 - Urban - Persons"
+"Tripura","94","2011 - Urban - Persons"
+"Uttar Pradesh","75","2011 - Urban - Persons"
+"Uttaranchal","85","2011 - Urban - Persons"
+"West Bengal","85","2011 - Urban - Persons"
+"A. and N. Islands","90","2011 - Urban - Persons"
+"Chandigarh","86","2011 - Urban - Persons"
+"D. and N. Haveli","90","2011 - Urban - Persons"
+"Daman and Diu","89","2011 - Urban - Persons"
+"Delhi","86","2011 - Urban - Persons"
+"Lakshadweep","92","2011 - Urban - Persons"
